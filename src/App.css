@@ -5,6 +5,7 @@
   margin: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  /* background-color: var(--grey_banner_color); */
   font-family: "Roboto", sans-serif;
 }
 
@@ -16,4 +17,62 @@
   --text_color:#000000;
   --light_green:#3EB64B;
   --dark_green:#106B3B;
+}
+
+/* NAVAR  */
+
+.navNavbar {
+  padding: 1.5rem 0;
+  align-items: center !important;
+  width: 100%;
+}
+
+.navar-logo {
+  margin-right: 5rem;
+}
+
+.nav-link {
+  padding: 0 .65rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.nav-link-user {
+  color: var(--dark_green);
+  font-size: 1.65rem !important;
+}
+
+.nav-link:hover {
+  color: var(--primary_red_color);
+}
+
+/* HOME CONTENT  */
+/* MAIN  */
+/* ASIDE TABLE CONTENT  */
+.right-aside {
+  padding: 2rem 0;
+}
+.league-table {
+  margin: 1rem 0;
+  padding: 2rem;
+  border: 1px solid #eee;
+}
+
+.table-head h3 {
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+
+.nav-link-standing {
+  font-size: 1.5rem;
+  opacity: .5;
+}
+
+.tale-data.nav-link-standing-btn {
+  text-align: center !important;
+  text-decoration: none;
+  justify-content: center;
 }
