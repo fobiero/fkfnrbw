@@ -1,28 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  /* background-color: var(--grey_banner_color); */
+  background: #fff !important;
   font-family: "Roboto", sans-serif;
 }
 
-:root{
-  --primary_red_color:#E53935;
-  --table_header_color:#E8E8E8;
-  --grey_banner_color:#FAFAFA;
+:root {
+  --primary_red_color: #ea1b15;
+  --table_header_color: #e8e8e8;
+  --grey_banner_color: #fafafa;
+  --secondary_color: #09f69a;
 
-  --text_color:#000000;
-  --light_green:#3EB64B;
-  --dark_green:#106B3B;
+  --text_color: #000000;
+  --light_green: #3eb64b;
+  --dark_green: #106b3b;
+  --secondary_text_color: #37003c;
+}
+
+.container-cont {
+  padding: 2rem 0;
 }
 
 /* NAVAR  */
+nav {
+  background: #fff !important;
+}
+.navbar {
+  background-color: #fff !important;
+  background: #fff !important;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+}
+
+.container-content {
+  background-color: #fff;
+}
 
 .navNavbar {
-  padding: 1.5rem 0;
+  padding: 1rem 0;
   align-items: center !important;
   width: 100%;
 }
@@ -32,19 +50,22 @@
 }
 
 .nav-link {
-  padding: 0 .65rem;
+  padding: 0 0.65rem;
   font-size: 1rem;
-  text-transform: uppercase;
-  font-weight: 400;
-}
-
-.nav-link-user {
-  color: var(--dark_green);
-  font-size: 1.65rem !important;
+  text-transform: capitalize;
+  line-height: 1.5;
 }
 
 .nav-link:hover {
   color: var(--primary_red_color);
+}
+
+.nav-loginbtn {
+  text-decoration: none;
+  padding: 0.35rem 1.5rem;
+  text-align: center;
+  color: #fff;
+  background: var(--dark_green) !important;
 }
 
 /* HOME CONTENT  */
@@ -55,7 +76,7 @@
 }
 .league-table {
   margin: 1rem 0;
-  padding: 2rem;
+  padding: 2rem 1rem 1rem 1rem;
   border: 1px solid #eee;
 }
 
@@ -65,14 +86,32 @@
   text-transform: capitalize;
 }
 
-
-.nav-link-standing {
-  font-size: 1.5rem;
-  opacity: .5;
-}
-
-.tale-data.nav-link-standing-btn {
-  text-align: center !important;
-  text-decoration: none;
+.table-load-more {
+  text-align: center;
   justify-content: center;
+  margin: 0.65rem 0;
+  padding: 0.5rem;
+  border: 1px solid var(--table_header_color);
 }
+
+.table-footer-link {
+  text-decoration: none;
+  font-weight: 350;
+  font-size: 1rem;
+  color: var(--secondary_text_color);
+}
+
+.table-footer-icons {
+  margin-right: 0.65rem;
+}
+
+.fx {
+  margin-left: 0.65rem;
+}
+
+.table-footer-link:hover {
+  color: var(--primary_red_color);
+  background: none !important;
+}
+
+/* TABLE SECTION  */

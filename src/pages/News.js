@@ -1,14 +1,13 @@
 import React from "react";
-
 import Navbar from "../components/Navbar";
 
-const Standings = () => {
+const News = () => {
   return (
     <>
       <Navbar />
-      <div className="container container-cont">League Standing</div>
+      News
     </>
   );
 };
 
-export default Standings;
+export default News;

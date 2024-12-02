@@ -1,14 +1,12 @@
 import React from "react";
 import { Link } from "react-router";
-import { FaUserCircle } from "react-icons/fa";
 
 import Home from "../pages/Home";
 import Fixtures from "../pages/Fixture";
 import Teams from "../pages/Teams";
 import Standings from "../pages/Standings";
-import Dashboard from "../pages/Dashboard";
-
-// import logo from "../assets/images/fkf-logo";
+import News from "../pages/News";
+import Contact from "../pages/Contact";
 
 const Navbar = () => {
   return (
@@ -16,9 +14,7 @@ const Navbar = () => {
       <nav className="navbar navbar-expand-lg bg-body-tertiary navNavbar">
         <div className="container container-content">
           <Link className="navbar-brand navar-logo" href="#">
-            <img
-              src={window.location.origin + "../assets/images/fkf-logo.png"}
-            />
+            <img src="" />
             Navbar
           </Link>
           <button
@@ -50,15 +46,16 @@ const Navbar = () => {
               >
                 Standings
               </Link>
+              <Link element={<News />} to="/news" className="nav-link">
+                News
+              </Link>
+              <Link element={<Contact />} to="/contact" className="nav-link">
+                Contact Us
+              </Link>
             </ul>
             <div className="d-flex">
-              {/* login User  */}
-              <Link
-                element={<Dashboard />}
-                to="/dashboard"
-                className="nav-link nav-link-user"
-              >
-                <FaUserCircle />
+              <Link to="/" className="nav-loginbtn">
+                Log In
               </Link>
             </div>
           </div>
