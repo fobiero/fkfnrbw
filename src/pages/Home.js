@@ -177,7 +177,7 @@ const Home = () => {
                     <div className="table-cl"></div>
                     <div className="table-fixtures table-load-more">
                       <Link className="table-moregames table-footer-link">
-                        Fixtures
+                        Upcoming Fixtures
                         <FaArrowRightLong className="table-footer-icons fx" />
                       </Link>
                     </div>
