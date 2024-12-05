@@ -1,0 +1,96 @@
+@import "../../App.css";
+
+.login-data {
+  padding: 10rem 0 0 0;
+}
+
+.loginPage {
+  width: 100%;
+  background-color: #fff;
+  box-shadow: -1px 6px 9px -4px rgba(0, 0, 0, 0.4);
+}
+
+.login-header {
+  padding: 2rem 0 1rem 0;
+  align-items: center !important;
+}
+
+.login-header h3 {
+  text-align: center;
+  font-size: 46px;
+  justify-content: center;
+  color: var(--dark_green);
+}
+
+.form-data {
+  padding: 2rem;
+}
+
+.form-input {
+  margin: 2rem 0;
+}
+
+.form-input-tle {
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: #7ea77a;
+  letter-spacing: 0.1rem;
+}
+
+.form-input-data {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #7ea77a;
+  outline: none;
+  color: #7ea77a;
+  letter-spacing: 0.125rem;
+  font-size: 14px;
+  padding: 0.5rem 0;
+}
+
+.form-input-data::placeholder {
+  color: #7ea77a;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.form-submit {
+  padding: 2rem 0 0 0;
+}
+
+.form-sb-btn {
+  width: 100%;
+  outline: none;
+  background-color: var(--dark_green) !important;
+  color: #fff;
+  padding: 0.65rem;
+  border: none;
+  text-align: center;
+}
+
+.form-footer {
+  text-align: center;
+  justify-content: center;
+}
+
+.ft-fgpsd {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.ftrgbtn {
+  text-decoration: none;
+}
+
+.ft-psd {
+  color: var(--dark_green) !important;
+}
+
+.form-footer-regpg {
+  padding-bottom: 2rem;
+}
+
+.ftrgbtn-reg {
+  color: var(--dark_green) !important;
+}

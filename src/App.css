@@ -19,6 +19,8 @@
   --light_green: #3eb64b;
   --dark_green: #106b3b;
   --secondary_text_color: #37003c;
+
+  --slider-spacing: 10px;
 }
 
 .container-cont {
@@ -47,8 +49,9 @@ nav {
   width: 100%;
 }
 
-.navar-logo {
-  margin-right: 5rem;
+.navbar-logo-img img {
+  width: 6rem;
+  height: auto;
 }
 
 .nav-link {
@@ -72,6 +75,111 @@ nav {
 
 /* HOME CONTENT  */
 /* MAIN  */
+.home-main {
+  padding: 4rem 0 0 0;
+}
+
+.home-wrapper-link {
+  text-decoration: none;
+}
+
+.home-wrapper-image {
+  height: 400px !important;
+  overflow: hidden;
+}
+
+.home-wrapper-image img {
+  width: 100%;
+}
+
+.home-wrapper-title {
+  padding: 2rem 0;
+}
+
+.home-wrapper-title-head {
+  font-size: 2rem;
+  color: var(--secondary_text_color);
+  background: transparent !important;
+}
+
+.home-wrapper-title-head span {
+  background: transparent !important;
+  font-weight: bolder;
+}
+
+.home-wrapper-desc {
+  display: flex;
+  align-items: center;
+  background: transparent !important;
+}
+
+.home-wrapper-desc-tle {
+  color: #fff;
+  text-align: left;
+  background: var(--primary_red_color) !important;
+  margin-right: 0.35rem;
+  text-transform: capitalize;
+  padding: 0.15rem 0.65rem;
+}
+
+.home-wrapper-desc-date {
+  text-transform: uppercase;
+  color: var(--primary_red_color);
+  font-weight: 400;
+}
+
+.home-wrapper-desc-info {
+  color: var(--text_color);
+  font-weight: 300;
+  font-size: 1.2rem;
+  line-height: 2.2rem;
+}
+
+.home-wrapper-desc-info:hover {
+  color: var(--secondary_text_color);
+}
+
+/* home---wrapper ---items  */
+.home-wrapper-items {
+  display: flex;
+  border: 1px solid #eee !important;
+  margin: 1rem 0;
+  box-shadow: 0px 3px var(--slider-spacing) rgba(20, 20, 21, 0.15);
+}
+
+.home-wrapper-items-thumb {
+  width: 250px;
+  overflow: hidden;
+  margin-right: 1rem;
+}
+
+.home-wrapper-items-thumb-img {
+  width: 100%;
+  height: auto;
+}
+
+.home-wrapper-items-info {
+  padding: 1rem 0 0 0;
+}
+
+.home-wrapper-items-info-dte {
+  font-size: 0.65rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.home-wrapper-items-info-head {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.home-wrapper-items-info-btn {
+  text-transform: capitalize;
+  text-decoration: none;
+  font-weight: 400;
+  color: var(--primary_red_color);
+}
+
 /* ASIDE TABLE CONTENT  */
 .right-aside {
   padding: 2rem 0;

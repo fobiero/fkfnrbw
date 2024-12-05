@@ -8,14 +8,15 @@ import Standings from "../pages/Standings";
 import News from "../pages/News";
 import Contact from "../pages/Contact";
 
+import LoginPage from "../pages/auth/LoginPage";
+
 const Navbar = () => {
   return (
     <>
       <nav className="navbar navbar-expand-lg bg-body-tertiary navNavbar">
         <div className="container container-content">
-          <Link className="navbar-brand navar-logo" href="#">
-            <img src="" />
-            Navbar
+          <Link className="navbar-brand navbar-logo-img">
+            <img src={require("../assets/images/fkf-logo.png")} />
           </Link>
           <button
             className="navbar-toggler"
@@ -54,8 +55,12 @@ const Navbar = () => {
               </Link>
             </ul>
             <div className="d-flex">
-              <Link to="/" className="nav-loginbtn">
-                Log In
+              <Link
+                to="/login"
+                className="nav-loginbtn"
+                element={<LoginPage />}
+              >
+                Login
               </Link>
             </div>
           </div>
